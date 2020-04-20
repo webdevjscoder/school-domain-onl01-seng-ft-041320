@@ -12,7 +12,7 @@ class School
   def add_student(student_name, student_grade)
     @student_name = student_name
     @student_grade = student_grade
-    if student_grade
+    if roster
   end
   
   def grade(grade)
