@@ -13,7 +13,9 @@ class School
     @student_name = student_name
     @student_grade = student_grade
     if @roster.include? == false
-      
+      @roster[grade] = []
+    else
+      @roster[grade] << grade
   end
   
   def grade(grade)
